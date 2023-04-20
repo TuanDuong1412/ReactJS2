@@ -12,14 +12,15 @@ import { RouterProvider } from 'react-router-dom';
 import router from './router'
 import Sum from './components/BaiTap/Sum';
 import Clock from './components/BaiTap/Clock';
+import Bai14BT1 from './components/Bai14_Router/BT1';
+import Bai14BT2 from './components/Bai14_Router/BT2';
+
 function App() {
   
   
   return (
     <div className="App">
-      {/* <Sum></Sum> */}
-      <Clock/>
-    <RouterProvider router={router}></RouterProvider>
+     <Bai14BT2></Bai14BT2>
     
     </div>
 
